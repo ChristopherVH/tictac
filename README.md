@@ -29,3 +29,6 @@ We recommend that you pass the specs in the following order:
 5. `bundle exec rspec spec/game_spec.rb`
 
 
+## Solutions
+
+You can find solutions on the 'solution' branch of this repo.
