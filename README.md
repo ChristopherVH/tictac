@@ -17,10 +17,8 @@ Clone down this repository somewhere on your computer:
 ```
 git clone https://github.com/appacademy/tic_tac_toe_assessment_2_extra_prep.git
 cd tic_tac_toe_assessment_2_extra_prep
-
+bundle install
 ```
-
-Then, make sure to run `bundle install` and then `bundle exec rspec`.
 
 We recommend that you pass the specs in the following order:
 
