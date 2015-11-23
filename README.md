@@ -1,6 +1,8 @@
 # TicTacToe
 
-Ruby command line tic-tac-toe game.
+Ruby command line tic-tac-toe game.  Adapted from MrPowers' [tic_tac_toe][tic_tac_toe].
+
+[tic_tac_toe]: https://github.com/MrPowers/tic_tac_toe/
 
 ## About
 
