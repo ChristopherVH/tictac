@@ -4,10 +4,30 @@ Ruby command line tic-tac-toe game.  Adapted from MrPowers' [tic_tac_toe][tic_ta
 
 [tic_tac_toe]: https://github.com/MrPowers/tic_tac_toe/
 
-## About
+## Overview
 
-The tic-tac-toe application accompanies an online tutorial for building object-oriented games with Ruby.  Here is a link to the online tutorial: http://wp.me/p3sWrq-3P
+This is a prep assessment provided for your benefit.  This assessment is *experimental* and has not been tested before.  Use at your own risk.
 
-I plan to create a pre work code quiz for this game on my website: http://www.codequizzes.com/
+We recommend that you try to complete this prep assessment within **1 hour**.
 
-If you have any questions or comments on the application, please feel free to send me a pull request or an email.
+## Running Specs
+
+Clone down this repository somewhere on your computer:
+
+```
+git clone https://github.com/appacademy/tic_tac_toe_assessment_2_extra_prep.git
+cd tic_tac_toe_assessment_2_extra_prep
+
+```
+
+Then, make sure to run `bundle install` and then `bundle exec rspec`.
+
+We recommend that you pass the specs in the following order:
+
+1. `bundle exec rspec spec/core_extension_spec.rb`
+2. `bundle exec rspec spec/cell_spec.rb`
+3. `bundle exec rspec spec/board_spec.rb`
+4. `bundle exec rspec spec/player_spec.rb`
+5. `bundle exec rspec spec/game_spec.rb`
+
+
