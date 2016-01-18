@@ -42,7 +42,7 @@ module TicTacToe
         grid = [[Cat.new("cool"), "", ""], ["", "", ""], ["", "", ""]]
         board = Board.new(grid: grid)
         board.set_cell(0, 0, "meow")
-        expect(board.get_cell(0, 0).value).to eq "meow"
+        expect(board.get_cell(0, 0)).to eq "meow"
       end
     end
 
@@ -125,5 +125,3 @@ module TicTacToe
 
   end
 end
-
-

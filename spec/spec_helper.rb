@@ -6,4 +6,4 @@ RSpec.configure do |config|
   end
 end
 
-RSpec::Expectations.configuration.warn_about_potential_false_positives = false
+# RSpec::Expectations.configuration.warn_about_potential_false_positives = false
